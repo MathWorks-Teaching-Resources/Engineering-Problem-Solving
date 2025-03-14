@@ -1,0 +1,94 @@
+stages:         
+  - test
+  - deploy
+  - release
+
+.setup_matlab_linux: &setup_matlab_linux
+  # install gstreamer libraries for audio/video file support
+  - export DEBIAN_FRONTEND=noninteractive && apt-get update -y && apt-get install --no-install-recommends -y libgstreamer1.0-0 gstreamer1.0-tools gstreamer1.0-libav gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly
+  - apt-get clean && apt-get -y autoremove && rm -rf /var/lib/apt/lists/*
+  - export MLM_LICENSE_TOKEN="$LICENSEOWNER|$LICENSELABEL|$LICENSETOKEN" # Set the batch token license
+  - apt-get update
+  - apt-get install --no-install-recommends --yes git wget ca-certificates xvfb
+  - wget -q https://www.mathworks.com/mpm/glnxa64/mpm -P /opt/
+  - chmod +x /opt/mpm
+  - /opt/mpm install --release=$VERSION --destination=/opt/matlab --products=MATLAB $PRODUCT
+  - wget -O /opt/matlab/bin/matlab-batch https://ssd.mathworks.com/supportfiles/ci/matlab-batch/v1/glnxa64/matlab-batch 
+  - chmod +x /opt/matlab/bin/matlab-batch
+
+.setup_matlab_windows: &setup_matlab_windows
+  - $env:MLM_LICENSE_TOKEN="$LICENSEOWNER|$LICENSELABEL|$LICENSETOKEN" # Set the batch token license
+  - Set-Alias -Name matlab -Value "D:\MATLAB\$VERSION\bin\matlab-batch"
+
+# test-linux:
+#     image: mathworks/matlab-deps:latest
+#     variables:
+#       PRODUCT: "Curve_Fitting_Toolbox Simscape Simscape_Battery Simscape_Electrical Simulink Statistics_and_Machine_Learning_Toolbox Symbolic_Math_Toolbox"
+#     parallel:
+#       matrix:
+#         - VERSION: [R2024b]
+#     tags:
+#       - training
+#       - linux
+#       - docker
+#     stage: test
+#     script:
+#       - *setup_matlab_linux
+#       - xvfb-run /opt/matlab/bin/matlab-batch "openProject(pwd); buildtool -continueOnFailure test:scripts test:models;"
+#     allow_failure: true
+#     artifacts:
+#       name: "Linux$VERSION"
+#       paths:
+#         - public/*
+
+test-windows:
+  parallel:
+    matrix:
+      - VERSION: [R2024b]
+  tags:
+    - training
+    - windows
+  stage: test
+  script:
+    - *setup_matlab_windows
+    - matlab "openProject(pwd); buildtool -continueOnFailure test-scripts test-models;"
+  allow_failure: true
+  artifacts:
+      name: "Windows$VERSION"
+      paths:
+        - public/*
+  when: always
+
+# test-internal:
+#   variables:
+#     VERSION: "R2024b"
+#     PRODUCT: ""
+#   tags:
+#     - training
+#     - linux
+#     - docker
+#   stage: test
+#   script:
+#     - *setup_matlab_linux
+#     - git clone https://ci-token:${GROUP_ACCESS_TOKEN}@insidelabs-git.mathworks.com/modular-curriculum-content/utilities.git internal-utilities -b ez-dev
+#     - xvfb-run /opt/matlab/bin/matlab-batch "openProject(pwd); addpath(genpath('internal-utilities')); buildtool -continueOnFailure test:internal;"
+#   allow_failure: true
+#   artifacts:
+#       name: "CMTests"
+#       paths:
+#         - public/*     
+        
+pages:
+    tags:
+      - training
+      - windows
+    stage: deploy
+    variables:
+      VERSION: "R2024b"
+    script:
+      - *setup_matlab_windows
+      - matlab "openProject(pwd); buildtool -continueOnFailure deploy-generate deploy-edit;"
+    allow_failure: true
+    artifacts:
+        paths:
+            - public
