@@ -59,19 +59,19 @@ Ensure you have all the required products (listed below) installed. If you need 
 | :-: | :-- | :-- |
 | <img src="Images/TrafficPattern.png" width="171" alt="TrafficPattern.png"> <br>  | $\bullet$ Explore the fundamentals of problem solving and systems engineering <br> $\bullet$ Enhance systems thinking skills by utilizing mathematical models <br> $\bullet$ Gain insights into methodologies for effectively approaching and solving problems <br> $\bullet$ Engage in project planning and understanding customer needs <br>  | **Academic disciplines** <br> $\bullet$ All Engineering Disciplines <br>   |
 
-## [**DefiningRequirements.mlx (planned)**] 
+## **DefiningRequirements.mlx (planned)** 
 |  | **In this script, students will...** <br>  | **Academic disciplines** <br>   |
 | :-: | :-- | :-- |
 | <img src="Images/RequirementsClipboard.png" width="171" alt="RequirementsClipboard.png"> <br>  | $\bullet$ Gain experience in interpreting and analyzing problem statements <br> $\bullet$ Explore different types of requirements and identify what constitutes a useful requirement <br> $\bullet$ Develop your own set of requirements for a sample problem statement <br>  | **Academic disciplines** <br> $\bullet$ All Engineering Disciplines <br>   |
 
 
-## [**SystemsDecomposition.mlx (planned)**] 
+## **SystemsDecomposition.mlx (planned)** 
 |  | **In this script, students will...** <br>  | **Academic disciplines** <br>   |
 | :-- | :-- | :-- |
 | <img src="Images/Decomposition.png" width="200" alt="Decomposition.png"> <br>  | $\bullet$ Utilize the V\-model to deconstruct your problem <br> $\bullet$ Gain expertise in deconstructing problems into manageable work components <br> $\bullet$ Conduct verification activities to ensure compliance with design criteria <br>  | **Academic disciplines** <br> $\bullet$ All Engineering Disciplines <br>   |
 
 
-## [**IntegrationAndTest.mlx (planned)**] 
+## **IntegrationAndTest.mlx (planned)** 
 |  | **In this script, students will...** <br>  | **Academic disciplines** <br>  
 | :-- | :-- | :-- |
 | <img src="Images/Integration.png" width="200" alt="Integration.png"> <br>  | $\bullet$ Utilize the V\-model to construct your solution <br> $\bullet$ Gain expertise in integrating components and conducting system\-level testing <br> $\bullet$ Conduct validation activities to ensure compliance with customer needs <br>  | **Academic disciplines** <br> $\bullet$ All Engineering Disciplines <br>   |
