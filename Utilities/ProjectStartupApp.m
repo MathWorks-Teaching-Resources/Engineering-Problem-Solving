@@ -99,7 +99,9 @@ classdef ProjectStartupApp < matlab.apps.AppBase
 
         % Code that executes after component creation
         function startupFcn(app)
-
+            
+            % Copy title
+            app.ReviewTitle.Text = app.WelcomeTitle.Text;
 
             % Switch tab to review if has not been reviewed yet
             if isfile(fullfile("Utilities","ProjectSettings.mat"))
@@ -110,11 +112,14 @@ classdef ProjectStartupApp < matlab.apps.AppBase
                 numLoad = 1; % Initialize counter
             end
 
-            % Switch tab for review
+            % Select tab to display
             if ~isReviewed && numLoad > 2
                 isReviewed = true;
-                app.TabGroup.SelectedTab = app.TabReview;
+                app.FeedBackGrid.Parent = app.StartUpAppUIFigure; 
+            else
+                app.WelcomeGrid.Parent = app.StartUpAppUIFigure;
             end
+            app.InitPosition = app.StartUpAppUIFigure.Position;
 
             % Save new settings
             app.saveSettings(isReviewed,numLoad)
@@ -135,10 +140,6 @@ classdef ProjectStartupApp < matlab.apps.AppBase
                 websave(fullfile("Utilities/SurveyLinks.mat"),Answer.Body.Data.download_url);
             catch
             end
-
-            % Prepopulate the App Grid:
-            app.WelcomeGrid.Parent = app.StartUpAppUIFigure;
-            app.InitPosition = app.StartUpAppUIFigure.Position;
         end
 
         % Close request function: StartUpAppUIFigure
@@ -309,7 +310,7 @@ classdef ProjectStartupApp < matlab.apps.AppBase
             app.ReviewText = uilabel(app.FeedBackGrid);
             app.ReviewText.HorizontalAlignment = 'center';
             app.ReviewText.WordWrap = 'on';
-            app.ReviewText.FontSize = 18;
+            app.ReviewText.FontSize = 14;
             app.ReviewText.Layout.Row = 2;
             app.ReviewText.Layout.Column = [1 3];
             app.ReviewText.Text = 'Please help us improve your experience by answering a few questions.';
