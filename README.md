@@ -2,7 +2,7 @@
 # <span style="color:rgb(213,80,0)">Engineering Problem Solving</span>
 
 
-[![View on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/XXXXX-PROJECTNAME) or [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Engineering-Problem-Solving&project=EngineeringProblemSolving.prj&file=README.mlx)
+[![View on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/180430-engineering-problem-solving) or [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Engineering-Problem-Solving&project=EngineeringProblemSolving.prj&file=README.mlx)
 
 [![MATLAB Versions Tested](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FMathWorks-Teaching-Resources%2FEngineering-Problem-Solving%2Frelease%2FImages%2FTestedWith.json)](https://MathWorks-Teaching-Resources.github.io/Engineering-Problem-Solving)
 
@@ -52,29 +52,29 @@ Ensure you have all the required products (listed below) installed. If you need 
 
 # Scripts
 
- *If you are viewing this in a version of MATLAB prior to R2023b, you can view the learning outcomes for each script* [*here*](https://www.mathworks.com/matlabcentral/fileexchange/REPO_NAME)  ***(EDIT HYPERLINK ACCORDINGLY)*** 
+ *If you are viewing this in a version of MATLAB prior to R2023b, you can view the learning outcomes for each script* [*here*](https://www.mathworks.com/matlabcentral/fileexchange/180430-engineering-problem-solving)
 
 ## [**IntroToProblemSolving.mlx**](IntroToProblemSolving.mlx) 
 |  | **In this script, students will...** <br>  | **Academic disciplines** <br>   |
 | :-: | :-- | :-- |
-| <img src="Images/TrafficPattern.png" width="171" alt="TrafficPattern.png"> <br>  | $\bullet$ Explore the fundamentals of problem solving and systems engineering <br> $\bullet$ Enhance systems thinking skills by utilizing mathematical models <br> $\bullet$ Gain insights into methodologies for effectively approaching and solving problems <br> $\bullet$ Engage in project planning and understanding customer needs <br>  | **Academic disciplines** <br> $\bullet$ All Engineering Disciplines <br>   |
+| <img src="Images/TrafficPattern.png" width="171" alt="TrafficPattern.png"> <br>  | $\bullet$ Explore the fundamentals of problem solving and systems engineering <br> $\bullet$ Enhance systems thinking skills by utilizing mathematical models <br> $\bullet$ Gain insights into methodologies for effectively approaching and solving problems <br> $\bullet$ Engage in project planning and understanding customer needs <br>  | <br> $\bullet$ All Engineering Disciplines <br>   |
 
 ## **DefiningRequirements.mlx (planned)** 
 |  | **In this script, students will...** <br>  | **Academic disciplines** <br>   |
 | :-: | :-- | :-- |
-| <img src="Images/RequirementsClipboard.png" width="171" alt="RequirementsClipboard.png"> <br>  | $\bullet$ Gain experience in interpreting and analyzing problem statements <br> $\bullet$ Explore different types of requirements and identify what constitutes a useful requirement <br> $\bullet$ Develop your own set of requirements for a sample problem statement <br>  | **Academic disciplines** <br> $\bullet$ All Engineering Disciplines <br>   |
+| <img src="Images/RequirementsClipboard.png" width="171" alt="RequirementsClipboard.png"> <br>  | $\bullet$ Gain experience in interpreting and analyzing problem statements <br> $\bullet$ Explore different types of requirements and identify what constitutes a useful requirement <br> $\bullet$ Develop your own set of requirements for a sample problem statement <br>  | <br> $\bullet$ All Engineering Disciplines <br>   |
 
 
 ## **SystemsDecomposition.mlx (planned)** 
 |  | **In this script, students will...** <br>  | **Academic disciplines** <br>   |
 | :-- | :-- | :-- |
-| <img src="Images/Decomposition.png" width="200" alt="Decomposition.png"> <br>  | $\bullet$ Utilize the V\-model to deconstruct your problem <br> $\bullet$ Gain expertise in deconstructing problems into manageable work components <br> $\bullet$ Conduct verification activities to ensure compliance with design criteria <br>  | **Academic disciplines** <br> $\bullet$ All Engineering Disciplines <br>   |
+| <img src="Images/Decomposition.png" width="200" alt="Decomposition.png"> <br>  | $\bullet$ Utilize the V\-model to deconstruct your problem <br> $\bullet$ Gain expertise in deconstructing problems into manageable work components <br> $\bullet$ Conduct verification activities to ensure compliance with design criteria <br>  | <br> $\bullet$ All Engineering Disciplines <br>   |
 
 
 ## **IntegrationAndTest.mlx (planned)** 
 |  | **In this script, students will...** <br>  | **Academic disciplines** <br>  
 | :-- | :-- | :-- |
-| <img src="Images/Integration.png" width="200" alt="Integration.png"> <br>  | $\bullet$ Utilize the V\-model to construct your solution <br> $\bullet$ Gain expertise in integrating components and conducting system\-level testing <br> $\bullet$ Conduct validation activities to ensure compliance with customer needs <br>  | **Academic disciplines** <br> $\bullet$ All Engineering Disciplines <br>   |
+| <img src="Images/Integration.png" width="200" alt="Integration.png"> <br>  | $\bullet$ Utilize the V\-model to construct your solution <br> $\bullet$ Gain expertise in integrating components and conducting system\-level testing <br> $\bullet$ Conduct validation activities to ensure compliance with customer needs <br>  | <br> $\bullet$ All Engineering Disciplines <br>   |
 
 
 
