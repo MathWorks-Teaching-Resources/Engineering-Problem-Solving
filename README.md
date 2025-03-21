@@ -28,7 +28,7 @@ Solutions are available upon instructor request. Contact the [MathWorks teaching
 
 ## Prerequisites
 
-This module assumes knowledge of some problem solving theory. There is minimal MATLAB knowledge required for these scripts and models, but you could use [MATLAB Onramp](https://matlabacademy.mathworks.com/details/matlab-onramp/gettingstarted), [Simulink Onramp](https://matlabacademy.mathworks.com/details/simulink-onramp/simulink), and [Simscape Onramp](https://matlabacademy.mathworks.com/details/simscape-onramp/simscape) as resources to acquire familiarity with MATLAB syntax, live scripts, and Simulink/Simscape models.
+This module assumes knowledge of some problem solving theory and calculus. There is minimal MATLAB knowledge required for these scripts and models, but you could use [MATLAB Onramp](https://matlabacademy.mathworks.com/details/matlab-onramp/gettingstarted), [Simulink Onramp](https://matlabacademy.mathworks.com/details/simulink-onramp/simulink), and [Simscape Onramp](https://matlabacademy.mathworks.com/details/simscape-onramp/simscape) as resources to acquire familiarity with MATLAB syntax, live scripts, and Simulink/Simscape models.
 
 
 ## Getting Started
@@ -54,7 +54,7 @@ Ensure you have all the required products (listed below) installed. If you need 
 
  *If you are viewing this in a version of MATLAB prior to R2023b, you can view the learning outcomes for each script* [*here*](https://www.mathworks.com/matlabcentral/fileexchange/180430-engineering-problem-solving)
 
-## [**IntroToProblemSolving.mlx**](IntroToProblemSolving.mlx) 
+## [**IntroToProblemSolving.mlx**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Engineering-Problem-Solving&project=EngineeringProblemSolving.prj&file=Scripts/IntroToProblemSolving.mlx) 
 |  | **In this script, students will...** <br>  | **Academic disciplines** <br>   |
 | :-: | :-- | :-- |
 | <img src="Images/TrafficPattern.png" width="171" alt="TrafficPattern.png"> <br>  | $\bullet$ Explore the fundamentals of problem solving and systems engineering <br> $\bullet$ Enhance systems thinking skills by utilizing mathematical models <br> $\bullet$ Gain insights into methodologies for effectively approaching and solving problems <br> $\bullet$ Engage in project planning and understanding customer needs <br>  | <br> $\bullet$ All Engineering Disciplines <br>   |
