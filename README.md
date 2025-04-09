@@ -28,8 +28,7 @@ Solutions are available upon instructor request. Contact the [MathWorks teaching
 
 ## Prerequisites
 
-This module assumes knowledge of some problem solving theory and calculus. There is minimal MATLAB knowledge required for these scripts and models, but you could use [MATLAB Onramp](https://matlabacademy.mathworks.com/details/matlab-onramp/gettingstarted), [Simulink Onramp](https://matlabacademy.mathworks.com/details/simulink-onramp/simulink), and [Simscape Onramp](https://matlabacademy.mathworks.com/details/simscape-onramp/simscape) as resources to acquire familiarity with MATLAB syntax, live scripts, and Simulink/Simscape models.
-
+This module assumes knowledge of some problem solving theory, calculus, and basic MATLAB skills. There is some MATLAB knowledge required for these scripts and models, and you could use [MATLAB Onramp](https://matlabacademy.mathworks.com/details/matlab-onramp/gettingstarted) and [Simulink Onramp](https://matlabacademy.mathworks.com/details/simulink-onramp/simulink) as resources to acquire familiarity with MATLAB syntax, live scripts, and Simulink/Simscape models. [Simscape Onramp](https://matlabacademy.mathworks.com/details/simscape-onramp/simscape) can be used as an optional resource to gain more skills.
 
 ## Getting Started
 ### Accessing the Module
@@ -59,10 +58,10 @@ Ensure you have all the required products (listed below) installed. If you need 
 | :-: | :-- | :-- |
 | <img src="Images/TrafficPattern.png" width="171" alt="TrafficPattern.png"> <br>  | $\bullet$ Explore the fundamentals of problem solving and systems engineering <br> $\bullet$ Enhance systems thinking skills by utilizing mathematical models <br> $\bullet$ Gain insights into methodologies for effectively approaching and solving problems <br> $\bullet$ Engage in project planning and understanding customer needs <br>  | <br> $\bullet$ All Engineering Disciplines <br>   |
 
-## **DefiningRequirements.mlx (planned)** 
+## [**DefiningRequirements.mlx**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Engineering-Problem-Solving&project=EngineeringProblemSolving.prj&file=Scripts/DefiningRequirements.mlx) 
 |  | **In this script, students will...** <br>  | **Academic disciplines** <br>   |
 | :-: | :-- | :-- |
-| <img src="Images/RequirementsClipboard.png" width="171" alt="RequirementsClipboard.png"> <br>  | $\bullet$ Gain experience in interpreting and analyzing problem statements <br> $\bullet$ Explore different types of requirements and identify what constitutes a useful requirement <br> $\bullet$ Develop your own set of requirements for a sample problem statement <br>  | <br> $\bullet$ All Engineering Disciplines <br>   |
+| <img src="Images/RequirementsClipboard.png" width="171" alt="RequirementsClipboard.png"> <br>  | $\bullet$ Gain experience in defining, interpreting, and analyzing problem statements <br> $\bullet$ Explore different types of requirements and identify what constitutes a useful requirement <br> $\bullet$ Evaluate a set of requirements for a sample problem statement <br> $\bullet$ Connect, execute, and visualize requirements and tests with mathematical models <br> $\bullet$ Incorporate regulatory standards into the process of writing and testing requirements <br>  | <br> $\bullet$ All Engineering Disciplines <br>   |
 
 
 ## **SystemsDecomposition.mlx (planned)** 
