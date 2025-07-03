@@ -17,7 +17,7 @@ This curriculum module contains interactive [MATLAB® live scripts](https://www.
 
 ## Background
 
-This initial release of the Engineering Problem Solving courseware features one interactive script that explores problem solving philosophy with emphasis on engineering and concepts that involve systems engineering.
+The Engineering Problem Solving courseware features three interactive scripts; the first explores problem solving philosophy with emphasis on engineering and concepts that involve systems engineering, the second explores creating and evaluating problem statements and requirements, and the third explores breaking down a complex problem into tangible parts that can be worked on and applying techniques learned in the previous scripts.
 
 The instructions inside the live scripts will guide you through the exercises and activities. Get started with each live script by running it one section at a time. To stop running the script or a section midway (for example, when an animation is in progress), use the <img src="Images/EndIcon.png" width="19" alt="EndIcon.png"> Stop button in the **RUN** section of the **Live Editor** tab in the MATLAB Toolstrip.
 
@@ -28,7 +28,7 @@ Solutions are available upon instructor request. Contact the [MathWorks teaching
 
 ## Prerequisites
 
-This module assumes knowledge of some problem solving theory, calculus, and basic MATLAB skills. There is some MATLAB knowledge required for these scripts and models, and you could use [MATLAB Onramp](https://matlabacademy.mathworks.com/details/matlab-onramp/gettingstarted) and [Simulink Onramp](https://matlabacademy.mathworks.com/details/simulink-onramp/simulink) as resources to acquire familiarity with MATLAB syntax, live scripts, and Simulink/Simscape models. [Simscape Onramp](https://matlabacademy.mathworks.com/details/simscape-onramp/simscape) can be used as an optional resource to gain more skills.
+This module assumes knowledge of some problem solving theory, calculus, physics, and basic MATLAB skills. There is some MATLAB knowledge required for these scripts and models, and you could use [MATLAB Onramp](https://matlabacademy.mathworks.com/details/matlab-onramp/gettingstarted) and [Simulink Onramp](https://matlabacademy.mathworks.com/details/simulink-onramp/simulink) as resources to acquire familiarity with MATLAB syntax, live scripts, and Simulink/Simscape models. [Simscape Onramp](https://matlabacademy.mathworks.com/details/simscape-onramp/simscape) can be used as an optional resource to gain more skills.
 
 ## Getting Started
 ### Accessing the Module
@@ -46,7 +46,7 @@ Ensure you have all the required products (listed below) installed. If you need 
 
 ## Products
 
- *MATLAB®* is used throughout. Tools from  *Simulink® and Simscape™* are used frequently as well.  *If your module uses a product not on this list, you can find it* [*here*](https://www.mathworks.com/products.html)*.*
+ *MATLAB®* is used throughout. Tools from *Simulink®*, *Simscape™*, *Requirements Toolbox*, and *Simulink Test* are used frequently as well. The Image Processing Toolbox is only used for the [*imread*](https://www.mathworks.com/help/matlab/ref/imread.html) and [*imresize*](https://www.mathworks.com/help/matlab/ref/imresize.html) functions. *If your module uses a product not on this list, you can find it* [*here*](https://www.mathworks.com/products.html)*.*
 
 
 # Scripts
@@ -64,10 +64,10 @@ Ensure you have all the required products (listed below) installed. If you need 
 | <img src="Images/RequirementsClipboard.png" width="171" alt="RequirementsClipboard.png"> <br>  | $\bullet$ Gain experience in defining, interpreting, and analyzing problem statements <br> $\bullet$ Explore different types of requirements and identify what constitutes a useful requirement <br> $\bullet$ Evaluate a set of requirements for a sample problem statement <br> $\bullet$ Connect, execute, and visualize requirements and tests with mathematical models <br> $\bullet$ Incorporate regulatory standards into the process of writing and testing requirements <br>  | <br> $\bullet$ All Engineering Disciplines <br>   |
 
 
-## **SystemsDecomposition.mlx (planned)** 
+## [**SystemsDecomposition.mlx**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Engineering-Problem-Solving&project=EngineeringProblemSolving.prj&file=Scripts/SystemsDecomposition.mlx) 
 |  | **In this script, students will...** <br>  | **Academic disciplines** <br>   |
 | :-- | :-- | :-- |
-| <img src="Images/Decomposition.png" width="200" alt="Decomposition.png"> <br>  | $\bullet$ Utilize the V\-model to deconstruct your problem <br> $\bullet$ Gain expertise in deconstructing problems into manageable work components <br> $\bullet$ Conduct verification activities to ensure compliance with design criteria <br>  | <br> $\bullet$ All Engineering Disciplines <br>   |
+| <img src="Images/Decomposition.png" width="200" alt="Decomposition.png"> <br>  | $\bullet$ Utilize the V\-model to decompose a complex problem <br> $\bullet$ Explore system architectures and interfaces <br> $\bullet$ Gain experience in decomposing problems into actionable tasks <br> $\bullet$ Conduct verification activities to ensure compliance with design criteria <br> $\bullet$ Perform a trade study for drone battery selection <br> $\bullet$ Review automatic code generation process from a Simulink model <br>  | <br> $\bullet$ All Engineering Disciplines <br>   |
 
 
 ## **IntegrationAndTest.mlx (planned)** 
