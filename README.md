@@ -46,7 +46,7 @@ Ensure you have all the required products (listed below) installed. If you need 
 
 ## Products
 
- *MATLAB®* is used throughout. Tools from *Simulink®*, *Simscape™*, *Requirements Toolbox*, and *Simulink Test* are used frequently as well. The Image Processing Toolbox is only used for the [*imread*](https://www.mathworks.com/help/matlab/ref/imread.html) and [*imresize*](https://www.mathworks.com/help/matlab/ref/imresize.html) functions. *If your module uses a product not on this list, you can find it* [*here*](https://www.mathworks.com/products.html)*.*
+ *MATLAB®* is used throughout. Tools from *Simulink®*, *Simscape™*, *Requirements Toolbox*, and *Simulink Test* are used frequently as well. The *Image Processing Toolbox* is only used for the [*imread*](https://www.mathworks.com/help/matlab/ref/imread.html) and [*imresize*](https://www.mathworks.com/help/matlab/ref/imresize.html) functions. *System Composer* is only used for visualization of system architectures. If your module uses a product not on this list, you can find it [*here*](https://www.mathworks.com/products.html)*.
 
 
 # Scripts
@@ -90,7 +90,7 @@ The license for this module is available in the [LICENSE.md](https://github.com/
 | <img src="Images/image_10.png" width="125" alt="image_10.png"> <br>  | **Available on:** <br> [<img src="Images/OpenInFX.png" width="91" alt="OpenInFX.png">](https://www.mathworks.com/matlabcentral/fileexchange/172770-battery-systems-introduction?s_tid=srchtitle)  <br> [<img src="Images/OpenInMO.png" width="136" alt="OpenInMO.png">](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Battery-Systems&project=BatterySystem.prj&file=README.mlx)  <br> [GitHub](https://github.com/MathWorks-Teaching-Resources/Battery-Systems)  <br>   |
 | :-: | :-- |
 
-## [ Mass\-Spring\-Damper Systems](https://www.mathworks.com/matlabcentral/fileexchange/94585-mass-spring-damper-systems?s_tid=srchtitle)
+## [Mass\-Spring\-Damper Systems](https://www.mathworks.com/matlabcentral/fileexchange/94585-mass-spring-damper-systems?s_tid=srchtitle)
 | <img src="Images/image_13.png" width="190" alt="image_13.png"> <br>  | **Available on:** <br> [<img src="Images/OpenInFX.png" width="91" alt="OpenInFX.png">](https://www.mathworks.com/matlabcentral/fileexchange/94585-mass-spring-damper-systems?s_tid=srchtitle)  <br> [<img src="Images/OpenInMO.png" width="136" alt="OpenInMO.png">](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Mass-Spring-Damper-Systems&project=mass-spring-damper-systems.prj&file=README.mlx)  <br> [GitHub](https://github.com/MathWorks-Teaching-Resources/Mass-Spring-Damper-Systems)  <br>   |
 | :-- | :-- |
 
