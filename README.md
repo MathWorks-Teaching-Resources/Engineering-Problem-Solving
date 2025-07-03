@@ -46,7 +46,7 @@ Ensure you have all the required products (listed below) installed. If you need 
 
 ## Products
 
- *MATLAB®* is used throughout. Tools from *Simulink®*, *Simscape™*, *Requirements Toolbox*, and *Simulink Test* are used frequently as well. The *Image Processing Toolbox* is only used for the [*imread*](https://www.mathworks.com/help/matlab/ref/imread.html) and [*imresize*](https://www.mathworks.com/help/matlab/ref/imresize.html) functions. *System Composer* is only used for visualization of system architectures. If your module uses a product not on this list, you can find it [*here*](https://www.mathworks.com/products.html)*.
+ *MATLAB®* is used throughout. Tools from *Simulink®*, *Simscape™*, *Requirements Toolbox*, and *Simulink Test* are used frequently as well. The *Image Processing Toolbox* is only used for the [*imread*](https://www.mathworks.com/help/matlab/ref/imread.html) and [*imresize*](https://www.mathworks.com/help/matlab/ref/imresize.html) functions. *System Composer* is only used for visualization of system architectures. If your module uses a product not on this list, you can find it [*here*](https://www.mathworks.com/products.html).
 
 
 # Scripts
