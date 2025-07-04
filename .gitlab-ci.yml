@@ -26,7 +26,7 @@ smoke-test:
     stage: test
     parallel:
       matrix:
-        - VERSION: [R2024a,R2024b]
+        - VERSION: [R2024b,R2025a]
     script: 
       - Set-Alias -Name matlab -Value "C:\Program Files\MATLAB\$VERSION\bin\matlab.exe"
       - matlab -batch "openProject(pwd);RunAllTests"

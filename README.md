@@ -8,7 +8,7 @@
 
 **Curriculum Module**
 
-_Created with R2024b. Compatible with R2024b and later releases._
+_Created with R2024a. Compatible with R2024a and later releases._
 
 # Information
 
