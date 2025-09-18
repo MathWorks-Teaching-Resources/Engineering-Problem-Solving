@@ -46,7 +46,7 @@ Ensure you have all the required products (listed below) installed. If you need 
 
 ## Products
 
- *MATLAB®* is used throughout. Tools from *Simulink®*, *Simscape™*, *Requirements Toolbox*, and *Simulink Test* are used frequently as well. The *Image Processing Toolbox* is only used for the [*imread*](https://www.mathworks.com/help/matlab/ref/imread.html) and [*imresize*](https://www.mathworks.com/help/matlab/ref/imresize.html) functions. *System Composer* is only used for visualization of system architectures. If your module uses a product not on this list, you can find it [*here*](https://www.mathworks.com/products.html).
+ *MATLAB®* is used throughout. Tools from *Simulink®*, *Simscape™*, *Requirements Toolbox*, and *Simulink Test* are used frequently as well. The *Image Processing Toolbox* is only used for the [*imread*](https://www.mathworks.com/help/matlab/ref/imread.html) and [*imresize*](https://www.mathworks.com/help/matlab/ref/imresize.html) functions. *System Composer* is only used for visualization of system architectures. *Embedded Coder*, *MATLAB Support Package for Arduino Hardware*, and *Simulink Support Package for Arduino Hardware* are used for a code generation and deployment example. *ThingSpeak* is only used for a task on retrieving data from the cloud. If your module uses a product not on this list, you can find it [*here*](https://www.mathworks.com/products.html).
 
 
 # Scripts
@@ -70,10 +70,10 @@ Ensure you have all the required products (listed below) installed. If you need 
 | <img src="Images/Decomposition.png" width="200" alt="Decomposition.png"> <br>  | $\bullet$ Utilize the V\-model to decompose a complex problem <br> $\bullet$ Explore system architectures and interfaces <br> $\bullet$ Gain experience in decomposing problems into actionable tasks <br> $\bullet$ Conduct verification activities to ensure compliance with design criteria <br> $\bullet$ Perform a trade study for drone battery selection <br> $\bullet$ Review automatic code generation process from a Simulink model <br>  | <br> $\bullet$ All Engineering Disciplines <br>   |
 
 
-## **IntegrationAndTest.mlx (planned)** 
+## [**IntegrationAndTest.mlx**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Engineering-Problem-Solving&project=EngineeringProblemSolving.prj&file=Scripts/IntegrationAndTest.mlx)  
 |  | **In this script, students will...** <br>  | **Academic disciplines** <br>  
 | :-- | :-- | :-- |
-| <img src="Images/Integration.png" width="200" alt="Integration.png"> <br>  | $\bullet$ Utilize the V\-model to construct your solution <br> $\bullet$ Gain expertise in integrating components and conducting system\-level testing <br> $\bullet$ Conduct validation activities to ensure compliance with customer needs <br>  | <br> $\bullet$ All Engineering Disciplines <br>   |
+| <img src="Images/Integration.png" width="200" alt="Integration.png"> <br>  | $\bullet$ Utilize the V\-model to integrate a complex solution <br> $\bullet$ Explore system architectures and interfaces <br> $\bullet$ Gain expertise in integrating components and conducting system\-level testing <br> $\bullet$ Implement an IoT solution to incorporate live weather data for quadcopter mission <br> $\bullet$ Conduct validation activities to ensure compliance with design criteria and customer needs <br> $\bullet$ Investigate the benefits of digital twins for a quadcopter and a hydraulic pump <br>  | <br> $\bullet$ All Engineering Disciplines <br>   |
 
 
 
