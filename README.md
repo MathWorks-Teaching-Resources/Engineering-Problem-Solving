@@ -23,7 +23,7 @@ The instructions inside the live scripts will guide you through the exercises an
 
 ## Contact Us
 
-Solutions are available upon instructor request. Contact the [MathWorks teaching resources team](mailto:onlineteaching@mathworks.com) if you would like to request solutions, provide feedback, or if you have a question.
+Contact the [MathWorks Educator Content Development Team](mailto:onlineteaching@mathworks.com) if you would like to provide feedback, or if you have a question.
 
 
 ## Prerequisites
@@ -51,7 +51,6 @@ Ensure you have all the required products (listed below) installed. If you need 
 
 # Scripts
 
- *If you are viewing this in a version of MATLAB prior to R2023b, you can view the learning outcomes for each script* [*here*](https://www.mathworks.com/matlabcentral/fileexchange/180430-engineering-problem-solving)
 
 ## [**IntroToProblemSolving.mlx**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Engineering-Problem-Solving&project=EngineeringProblemSolving.prj&file=Scripts/IntroToProblemSolving.mlx) 
 |  | **In this script, students will...** <br>  | **Academic disciplines** <br>   |
@@ -102,9 +101,9 @@ Or feel free to explore our other [modular courseware content](https://www.mathw
 
 # Contribute 
 
-Looking for more? Find an issue? Have a suggestion? Please contact the [MathWorks teaching resources team](mailto:%20onlineteaching@mathworks.com). If you want to contribute directly to this project, you can find information about how to do so in the [CONTRIBUTING.md](https://github.com/MathWorks-Teaching-Resources/Engineering-Problem-Solving/blob/main/CONTRIBUTING.md) page on GitHub.
+Looking for more? Find an issue? Have a suggestion? Please contact the [MathWorks Educator Content Development Team](mailto:%20onlineteaching@mathworks.com). If you want to contribute directly to this project, you can find information about how to do so in the [CONTRIBUTING.md](https://github.com/MathWorks-Teaching-Resources/Engineering-Problem-Solving/blob/main/CONTRIBUTING.md) page on GitHub.
 
 
- *©* Copyright 2024 The MathWorks™, Inc
+ *©* Copyright 2025 The MathWorks, Inc
 
 

@@ -19,8 +19,10 @@ jobs:
     strategy: 
       fail-fast: false
       matrix:
-        MATLABVersion: [R2024b,R2025a]
+        MATLABVersion: [R2024b,R2025a,R2025b]
     runs-on: ubuntu-latest
+    env:
+      LD_PRELOAD: /usr/lib/x86_64-linux-gnu/libstdc++.so.6
     steps:
       # Checks-out your repository
       - uses: actions/checkout@v4
@@ -39,8 +41,6 @@ jobs:
         with:
           release: ${{ matrix.MATLABVersion }}
           products: MATLAB Simulink Simscape Requirements_Toolbox Simulink_Test Image_Processing_Toolbox System_Composer Simscape_Battery Simscape_Driveline
-
-
 
       # Run all the tests
       - name: Run SmokeTests
