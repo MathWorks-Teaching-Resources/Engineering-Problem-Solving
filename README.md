@@ -17,7 +17,7 @@ This curriculum module contains interactive [MATLAB® live scripts](https://www.
 
 ## Background
 
-The Engineering Problem Solving courseware features three interactive scripts; the first explores problem solving philosophy with emphasis on engineering and concepts that involve systems engineering, the second explores creating and evaluating problem statements and requirements, and the third explores breaking down a complex problem into tangible parts that can be worked on and applying techniques learned in the previous scripts.
+The Engineering Problem Solving courseware features four interactive scripts. The first script explores problem solving philosophy with emphasis on engineering and concepts that involve systems engineering. The second explores creating and evaluating problem statements and requirements. The third explores breaking down a complex problem into tangible parts that can be worked on and applying techniques learned in the previous scripts. The fourth explores building up a solution to the original problem and investigating interconnections between systems.
 
 The instructions inside the live scripts will guide you through the exercises and activities. Get started with each live script by running it one section at a time. To stop running the script or a section midway (for example, when an animation is in progress), use the <img src="Images/EndIcon.png" width="19" alt="EndIcon.png"> Stop button in the **RUN** section of the **Live Editor** tab in the MATLAB Toolstrip.
 
