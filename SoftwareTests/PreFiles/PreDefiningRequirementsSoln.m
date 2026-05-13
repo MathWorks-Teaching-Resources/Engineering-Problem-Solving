@@ -1,6 +1,6 @@
 %  Pre-run script for DefiningRequirementsSoln.mlx
 % ---- Known Issues     -----
-KnownIssuesID = "";
+KnownIssuesID = "MATLAB:Editor:Document:NotAvailable";
 % ---- Pre-run commands -----
 
 sltest.testmanager.view = @(x) disp("... Opening "+x);
